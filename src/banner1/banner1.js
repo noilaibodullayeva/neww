@@ -1,4 +1,4 @@
-import { Box, Container, styled, Typography, Button } from "@mui/material";
+import { Box, styled, Typography, Button } from "@mui/material";
 import Img2 from "../images/banner bg.jpg"
 
 const TypoBed = styled('Typography')(({ theme }) => ({
@@ -64,7 +64,7 @@ export default Banner1
 
 const styles = {
     bg3: {
-        backgroundImage: `url(${Img2})`,
+        backgroundImage: `url("../images/banner bg.jpg")`,
         width: '100%',
         backgroundRepeat: "no-repeat",
         display: 'flex',
