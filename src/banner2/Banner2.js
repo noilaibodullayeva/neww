@@ -1,6 +1,6 @@
 
 import { Box, styled } from "@mui/material";
-import DemoCarousel from "./corusel";
+// import DemoCarousel from "./corusel";
 
 const TypoBed = styled('Typography')(({ theme }) => ({
     color: '#222',
@@ -29,9 +29,9 @@ function Banner2() {
                 <TypoBed>Display latest & Featured Properties</TypoBed>
                 <TypoGet>Get Started By choosing from one of our pre-build page templates to showcase your properties</TypoGet>
             </Box>
-            <Box>
+            {/* <Box>
                 <DemoCarousel/>
-            </Box>
+            </Box> */}
         </Box>
     )
 }
