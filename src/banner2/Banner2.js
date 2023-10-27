@@ -17,7 +17,7 @@ const TypoGet = styled('Typography')(({ theme }) => ({
     fontSize: '20px',
     fontFamily: 'san-serif',
     fontStyle: 'normal',
-    m: '2% 0 2% 0',
+    m: '20px 0 20px 0',
     width: { md: '400px', xs: '250px' },  
     textAlign: 'center',
 }));
@@ -25,7 +25,7 @@ const TypoGet = styled('Typography')(({ theme }) => ({
 function Banner2() {
     return (
         <Box>
-            <Box sx={{marginTop: {md: '5%', xs: '2%'}, display: 'flex', flexDirection: 'column', justifyContent: 'center', mb: '2%'}}>
+            <Box sx={{marginTop: {md: '5%', xs: '2%'}, display: 'flex', flexDirection: 'column', justifyContent: 'center',gap: '15px'}}>
                 <TypoBed>Display latest & Featured Properties</TypoBed>
                 <TypoGet>Get Started By choosing from one of our pre-build page templates to showcase your properties</TypoGet>
             </Box>

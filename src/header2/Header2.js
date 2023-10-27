@@ -123,7 +123,7 @@ const styles = {
         bgColor: '#fff',
         width: '100%',
         display: {md: 'block', xs: 'none'},
-        height: '50px'
+        height: '65px'
     },
     container: {
         display:'flex',
