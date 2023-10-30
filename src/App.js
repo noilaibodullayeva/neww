@@ -7,6 +7,8 @@ import Banner2 from './banner2/Banner2';
 import Banner3 from './banner3/Banner3';
 import Sale from './sale/Sale';
 import Explore from './explore/explore';
+import Agents from './agents/agents';
+import NewsLetter from './newsletter/NewsLetter';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Banner3/>
       <Sale/>
       <Explore/>
+      <Agents/>
+      <NewsLetter/>
     </Box>
   );
 }

@@ -120,12 +120,12 @@ export default Sale
 const styles = {
     boxSm: {
         width: { md: '360px', xs: '99%' },
-        height: '420px',
+        height: {md:'420px', xs:'570px'},
         borderRadius: 'none',
         display: 'flex',
         flexDirection: 'column',
         border: '1px solid #000',
-        marginTop: { md: 0, xs: '130px' }
+        marginTop: { md: 0, xs: '10px' }
     },
     typo: {
         color: '#000',
