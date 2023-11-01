@@ -18,9 +18,6 @@ const Bg = styled('Box')(({ theme }) => ({
     textAlign: 'center',
     mt: '3%',
     backgroundColor: '#00A0EB',
-    justifyContent: 'center',
-    display: 'flex',
-    flexDirection: { md: 'row', xs: 'column' },
 }))
 
 const CardSt = styled('Card')(({ theme }) => ({
@@ -29,7 +26,6 @@ const CardSt = styled('Card')(({ theme }) => ({
     fontSize: '25px',
     textAlign: 'center',
     backgroundColor: 'transparent',
-    justifyContent: 'center',
     width: '300px',
     height: '280px',
 }))
@@ -59,7 +55,7 @@ function Banner3() {
         <Box sx={styles.bg6}>
             <Help sx={{mt: {md: '3%', xs: '20px'}}}>How we help people?</Help>
             <Bg sx={{
-                margin: { md: '2% 20.3% 0 20.3%', xs: '20px 0 0 25%' },
+                // margin: { md: '2% 20.3% 0 20.3%', xs: '20px 0 0 25%' },
                 display: 'flex',
                 flexDirection: { md: 'row', xs: 'column' },
                 justifyContent: 'center',
@@ -67,7 +63,7 @@ function Banner3() {
                 height: { md: '282px', xs: 'cover' },
             }}>
                 <CardSt sx={styles.cardst}>
-                    <Home  href="/;" sx={{ m: '0 0 5px 100px', fontSize: '90px' }} />
+                    <Home sx={{ m: '0 0 5px 100px', fontSize: '90px' }} />
                     <Sell>Sell Home or Office</Sell>
                     <TypoGet>Get Started By choosing from one of our pre-build page templates to showcase your properties</TypoGet>
                 </CardSt>

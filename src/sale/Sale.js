@@ -60,7 +60,7 @@ function Sale() {
                     <Cost sx={styles.mar}>$ 6728</Cost>
                     <Home sx={styles.mar}>Classical Home</Home>
                     <TypoGet sx={styles.mar}>Get Started By choosing from one of our pre-build page templates to showcase your properties</TypoGet>
-                    <Divider width='100%' color="#777" />
+                    <Divider width='100%' color="#BECCD6" />
                     <Box display='flex' flexDirection='row' justifyContent='space-between' mt='10px'>
                         <IconButton>
                             <Bed /> <Typography sx={styles.typo}>2 bedroom</Typography>
@@ -78,7 +78,7 @@ function Sale() {
                     <Cost sx={styles.mar}>$ 6728</Cost>
                     <Home sx={styles.mar}>Classical Home</Home>
                     <TypoGet sx={styles.mar}>Get Started By choosing from one of our pre-build page templates to showcase your properties</TypoGet>
-                    <Divider width='100%' color="#777" />
+                    <Divider width='100%' color="#BECCD6" />
                     <Box display='flex' flexDirection='row' justifyContent='space-between' mt='10px'>
                         <IconButton>
                             <Bed /> <Typography sx={styles.typo}>2 bedroom</Typography>
@@ -96,7 +96,7 @@ function Sale() {
                     <Cost sx={styles.mar}>$ 6728</Cost>
                     <Home sx={styles.mar}>Classical Home</Home>
                     <TypoGet sx={styles.mar}>Get Started By choosing from one of our pre-build page templates to showcase your properties</TypoGet>
-                    <Divider width='100%' color="#777" />
+                    <Divider width='100%' color="#BECCD6" />
                     <Box display='flex' flexDirection='row' justifyContent='space-between' mt='10px'>
                         <IconButton>
                             <Bed /> <Typography sx={styles.typo}>2 bedroom</Typography>
@@ -124,7 +124,7 @@ const styles = {
         borderRadius: 'none',
         display: 'flex',
         flexDirection: 'column',
-        border: '1px solid #000',
+        border: '2px solid #BECCD6',
         marginTop: { md: 0, xs: '10px' }
     },
     typo: {

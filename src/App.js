@@ -9,6 +9,7 @@ import Sale from './sale/Sale';
 import Explore from './explore/explore';
 import Agents from './agents/agents';
 import NewsLetter from './newsletter/NewsLetter';
+import Footer from './footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Explore/>
       <Agents/>
       <NewsLetter/>
+      <Footer/>
     </Box>
   );
 }

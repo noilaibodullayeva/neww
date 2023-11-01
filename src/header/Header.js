@@ -9,14 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-// import singin from '../sign ion/SignIn';
 import { LocationCityRounded } from '@mui/icons-material';
-// import { Routes, useNavigate } from 'react-router-dom';
-// import { NavLink } from 'react-router-dom';
-// import {
-//   BrowserRouter as Router, Link,
-//   useLocation
-// } from "react-router-dom";
 
 const pages = ['Home', 'Property', 'About', 'Blog', 'Contact'];
 
@@ -30,11 +23,6 @@ function Header() {
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
     };
-
-    // const navigate = useNavigate()
-
-    //  const location = useLocation();
-    //     console.log(location);
 
     return (
         <AppBar sx={styles.container}>
@@ -194,16 +182,7 @@ function Header() {
                                     borderRadius: 0,
                                 }}
                                 variant='contained'
-                            // onClick={() => navigate("/singin")}
                             >
-                                {/* <nav >
-                                    <NavLink to='/SignIn'> */}
-                                {/* <Routes>
-                                        <Routes to='/singin'>Sign In</Routes>
-                                    </Routes> */}
-
-                                {/* </NavLink>
-                                </nav> */}
                                 Sign In
                             </Button>
                         </Box>
@@ -223,7 +202,6 @@ const styles = {
     },
     logoIcon: {
         color: '#05B0FE',
-        // fontSize: '60px'
         left: 0
     }
 }

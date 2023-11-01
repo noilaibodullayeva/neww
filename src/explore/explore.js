@@ -76,7 +76,7 @@ const styles = {
         justifyContent: 'center',
         backgroundColor: '#F1F4F8',
         height:'300px',
-        marginTop: {md:'80px', xs:'300px'},
+        marginTop: {md:'80px', xs:'50px'},
         gap:'30px'
     },
     button: {
