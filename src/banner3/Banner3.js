@@ -11,16 +11,7 @@ const Help = styled('Typography')(({ theme }) => ({
     textAlign: 'center',
 }))
 
-const Bg = styled('Box')(({ theme }) => ({
-    color: '#fff',
-    fontFamily: 'monoscape',
-    fontSize: '25px',
-    textAlign: 'center',
-    mt: '3%',
-    backgroundColor: '#00A0EB',
-}))
-
-const CardSt = styled('Card')(({ theme }) => ({
+const CardSt = styled('Box')(({ theme }) => ({
     color: '#fff',
     fontFamily: 'monoscape',
     fontSize: '25px',
@@ -36,7 +27,6 @@ const Sell = styled('Typography')(({ theme }) => ({
     fontFamily: 'monoscape',
     fontSize: '20px',
     textAlign: 'center',
-    mb: '1%'
 }))
 
 const TypoGet = styled('Typography')(({ theme }) => ({
@@ -53,32 +43,35 @@ const TypoGet = styled('Typography')(({ theme }) => ({
 function Banner3() {
     return (
         <Box sx={styles.bg6}>
-            <Help sx={{mt: {md: '3%', xs: '20px'}}}>How we help people?</Help>
-            <Bg sx={{
-                // margin: { md: '2% 20.3% 0 20.3%', xs: '20px 0 0 25%' },
-                display: 'flex',
-                flexDirection: { md: 'row', xs: 'column' },
-                justifyContent: 'center',
+            <Help sx={{ mt: { md: '3%', xs: '20px' } }}>How we help people?</Help>
+            <Box sx={{
                 width: { md: '900px', xs: '300px' },
                 height: { md: '282px', xs: 'cover' },
+                color: '#fff',
+                fontFamily: 'monoscape',
+                fontSize: '25px',
+                textAlign: 'center',
+                mt: '3%',
+                backgroundColor: '#00A0EB',
             }}>
-                <CardSt sx={styles.cardst}>
-                    <Home sx={{ m: '0 0 5px 100px', fontSize: '90px' }} />
-                    <Sell>Sell Home or Office</Sell>
-                    <TypoGet>Get Started By choosing from one of our pre-build page templates to showcase your properties</TypoGet>
-                </CardSt>
-                <Divider />
-                <CardSt sx={styles.cardst}>
-                    <Domain sx={{ m: '0 0 5px 100px', fontSize: '90px' }} />
-                    <Sell>Rent Home or Office</Sell>
-                    <TypoGet>Get Started By choosing from one of our pre-build page templates to showcase your properties</TypoGet>
-                </CardSt>
-                <CardSt sx={styles.cardst}>
-                    <MapsHomeWork sx={{ m: '0 0 5px 100px', fontSize: '90px' }} />
-                    <Sell>Find Next</Sell>
-                    <TypoGet>Get Started By choosing from one of our pre-build page templates to showcase your properties</TypoGet>
-                </CardSt>
-            </Bg>
+                <Box sx={{ width: '100%', display: 'flex', flexDirection: { md: 'row', xs: 'column' }, justifyContent: 'center' }}>
+                    <CardSt sx={styles.cardst}>
+                        <Home sx={{ m: '0 0 5px 100px', fontSize: '90px' }} />
+                        <Sell>Sell Home or Office</Sell>
+                        <TypoGet>Get Started By choosing from one of our pre-build page templates to showcase your properties</TypoGet>
+                    </CardSt>
+                    <CardSt sx={styles.cardst}>
+                        <Domain sx={{ m: '0 0 5px 100px', fontSize: '90px' }} />
+                        <Sell>Rent Home or Office</Sell>
+                        <TypoGet>Get Started By choosing from one of our pre-build page templates to showcase your properties</TypoGet>
+                    </CardSt>
+                    <CardSt sx={styles.cardst}>
+                        <MapsHomeWork sx={{ m: '0 0 5px 100px', fontSize: '90px' }} />
+                        <Sell>Find Next</Sell>
+                        <TypoGet>Get Started By choosing from one of our pre-build page templates to showcase your properties</TypoGet>
+                    </CardSt>
+                </Box>
+            </Box>
         </Box>
     )
 }
@@ -92,7 +85,7 @@ const styles = {
         backgroundRepeat: "no-repeat",
         display: 'flex',
         flexDirection: 'column',
-        height: {md:'500px', xs: '990px'},
+        height: { md: '500px', xs: '990px' },
         backgroundSize: "cover",
         marginTop: 0,
         backgroundPositionY: 1,
@@ -104,6 +97,6 @@ const styles = {
         flexDirection: 'column',
         justifyContent: 'center',
         border: '1px solid #06ADFE',
-        width: { xs: '300px' }
+        width: { md: '300px', xs: '300px' }
     }
 }

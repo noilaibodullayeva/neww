@@ -48,8 +48,13 @@ function Header2() {
                                 <MenuItem value={70}>Rent 7</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl fullWidth>
-                            <InputLabel id="demo-simple-select-label" ><BedRounded/>Bed</InputLabel>
+                        <FormControl fullWidth >
+                            <InputLabel id="demo-simple-select-label" sx={{
+                            display:'flex',
+                            flexDirection:'row',
+                            justifyContent:'space-between',
+                            alignItems:'center'
+                        }}><BedRounded/>Bed</InputLabel>
                             <Select
                                 labelId="demo-simple-select-label"
                                 id="demo-simple-selectt"
@@ -71,7 +76,12 @@ function Header2() {
                             </Select>
                         </FormControl>
                         <FormControl fullWidth>
-                            <InputLabel id="demo-simple-select-label"><Bathroom/>Bath</InputLabel>
+                            <InputLabel id="demo-simple-select-label" sx={{
+                            display:'flex',
+                            flexDirection:'row',
+                            justifyContent:'space-between',
+                            alignItems:'center'
+                        }}><Bathroom/>Bath</InputLabel>
                             <Select
                                 labelId="demo-simple-select-label"
                                 id="demo-simple-selecttt"
